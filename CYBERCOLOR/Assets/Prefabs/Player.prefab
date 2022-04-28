@@ -134,6 +134,7 @@ MonoBehaviour:
   SpeedMultiplier: 10
   _movementInput: {x: 0, y: 0}
   _moveVector: {x: 0, y: 0, z: 0}
+  _rotateVector: {x: 0, y: 0, z: 0}
 --- !u!114 &8488329003368722591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,6 +177,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 0ea9043e-3aaa-4b14-a1ee-d8f7607889c2
     m_ActionName: Gameplay/Move[/Keyboard/w,/Keyboard/a,/Keyboard/s,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2192883463104819319}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: OnRotate
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c89bdecd-8368-4590-a14e-6443d48c6bd9
+    m_ActionName: Gameplay/Rotate[/XInputControllerWindows/rightStick,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Gameplay
