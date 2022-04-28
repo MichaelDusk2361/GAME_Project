@@ -116,7 +116,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 80
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!114 &2192883463104819319
 MonoBehaviour:
@@ -134,7 +134,7 @@ MonoBehaviour:
   SpeedMultiplier: 10
   _movementInput: {x: 0, y: 0}
   _moveVector: {x: 0, y: 0, z: 0}
-  _rotateVector: {x: 0, y: 0, z: 0}
+  _rotateInput: {x: 0, y: 0}
 --- !u!114 &8488329003368722591
 MonoBehaviour:
   m_ObjectHideFlags: 0
