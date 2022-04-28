@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
             return;
 
         _moveVector = new Vector3(_movementInput.x, 0, _movementInput.y) * Speed * SpeedMultiplier * Time.fixedDeltaTime;
-        _rigidbody.velocity = _moveVector;
+        _rigidbody.AddForce(_moveVector, ForceMode.Acceleration);
 
         // Prevents reset of rotation to vector 0, 0 (0 degrees angle)
         if(_rotateInput.x != 0f && _rotateInput.y != 0f)
@@ -44,16 +44,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.transform.CompareTag("Hole") && !_stunned)
-        {
-            _stunned = true;
-            StartCoroutine(OnStun());
-        }
-    }
-
-    IEnumerator OnStun()
+    public IEnumerator OnStun()
     {
         yield return new WaitForSeconds(3f);
         _stunned = false;

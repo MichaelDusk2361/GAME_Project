@@ -131,7 +131,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 50
-  SpeedMultiplier: 10
+  SpeedMultiplier: 50
+  _stunned: 0
   _movementInput: {x: 0, y: 0}
   _moveVector: {x: 0, y: 0, z: 0}
   _rotateInput: {x: 0, y: 0}
