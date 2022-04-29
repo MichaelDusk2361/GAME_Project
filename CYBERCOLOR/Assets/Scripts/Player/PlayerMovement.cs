@@ -44,9 +44,10 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public IEnumerator OnStun()
+    public IEnumerator OnStun(float seconds)
     {
-        yield return new WaitForSeconds(3f);
+        _stunned = true;
+        yield return new WaitForSeconds(seconds);
         _stunned = false;
     }
 

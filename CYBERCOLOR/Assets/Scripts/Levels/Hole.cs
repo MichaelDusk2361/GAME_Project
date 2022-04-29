@@ -8,7 +8,7 @@ public class Hole : MonoBehaviour
     {
         if (collision.transform.GetComponent<PlayerMovement>() is PlayerMovement player)
         {
-            StartCoroutine(player.OnStun());
+            StartCoroutine(player.OnStun(1.5f));
         }
     }
 }
