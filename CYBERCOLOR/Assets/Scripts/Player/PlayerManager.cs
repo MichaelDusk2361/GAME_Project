@@ -23,13 +23,10 @@ public class PlayerManager : MonoBehaviour
         _playerIndex = 0;
     }
 
-    public void OnPlayerJoined(PlayerInput obj)
+    public void OnPlayerJoined(PlayerInput player)
     {
-        PlayerData player = obj.GetComponent<PlayerData>();
-        
         // Set player properties
         int index = _playerIndex++;
-        player.Id = index;
         player.GetComponent<MeshRenderer>().material = _playerMaterials[index];
 
         player.transform.position = SpawnPoints[index];
