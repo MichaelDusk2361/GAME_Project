@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Vector2 _movementInput;
     [SerializeField] private Vector3 _moveVector;
     [SerializeField] private Vector2 _rotateInput;
+    [SerializeField] private float _angle;
 
     private Rigidbody _rigidbody;
 
@@ -34,6 +35,11 @@ public class PlayerMovement : MonoBehaviour
             return;
 
         _moveVector = new Vector3(_movementInput.x, 0, _movementInput.y) * Speed * SpeedMultiplier * Time.fixedDeltaTime;
+
+        _angle = Vector3.Angle(_moveVector, _rigidbody.velocity);
+        if (_angle > 90)
+            _moveVector *= 5f;
+            
         _rigidbody.AddForce(_moveVector, ForceMode.VelocityChange);
 
         // Prevents reset of rotation to vector 0, 0 (0 degrees angle)

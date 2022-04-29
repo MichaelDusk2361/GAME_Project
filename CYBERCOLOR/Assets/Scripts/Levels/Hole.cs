@@ -4,19 +4,18 @@ using UnityEngine;
 
 public class Hole : MonoBehaviour
 {
-    private Dictionary<PlayerMovement, Vector3> _fallingPlayers = new();
+    private readonly Dictionary<PlayerMovement, Vector3> _fallingPlayers = new();
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.transform.GetComponent<PlayerMovement>() is PlayerMovement player)
         {
-            if (_fallingPlayers.ContainsKey(player))
+            if (_fallingPlayers.ContainsKey(player) && player.transform.position.y < -2f)
             {
                 StartCoroutine(StunPlayer(1.5f, player, _fallingPlayers[player]));
             }
-            else
+            else if (!_fallingPlayers.ContainsKey(player))
             {
-                player.Stunned = true;
                 _fallingPlayers.Add(player, player.transform.position);
             }
         }
@@ -29,9 +28,10 @@ public class Hole : MonoBehaviour
 
         Vector3 position = transform.position + direction + direction.normalized * 2;
         position.y = 1;
+        player.GetComponent<Rigidbody>().velocity = Vector3.zero;
         player.transform.position = position;
 
-
+        player.Stunned = true;
         yield return new WaitForSeconds(stunDuration);
         player.Stunned = false;
 
