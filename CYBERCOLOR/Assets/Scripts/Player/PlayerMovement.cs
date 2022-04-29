@@ -8,9 +8,9 @@ public class PlayerMovement : MonoBehaviour
 {
     public float Speed = 5f;
     public float SpeedMultiplier = 10f;
+    public bool Stunned;
 
     [Header("Debugging Variables")]
-    [SerializeField] private bool _stunned;
     [SerializeField] private Vector2 _movementInput;
     [SerializeField] private Vector3 _moveVector;
     [SerializeField] private Vector2 _rotateInput;
@@ -30,11 +30,11 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (_stunned)
+        if (Stunned)
             return;
 
         _moveVector = new Vector3(_movementInput.x, 0, _movementInput.y) * Speed * SpeedMultiplier * Time.fixedDeltaTime;
-        _rigidbody.AddForce(_moveVector, ForceMode.Acceleration);
+        _rigidbody.AddForce(_moveVector, ForceMode.VelocityChange);
 
         // Prevents reset of rotation to vector 0, 0 (0 degrees angle)
         if(_rotateInput.x != 0f && _rotateInput.y != 0f)
@@ -42,13 +42,6 @@ public class PlayerMovement : MonoBehaviour
             float angle = Mathf.Atan2(_rotateInput.x, _rotateInput.y) * Mathf.Rad2Deg;
             _rigidbody.rotation = Quaternion.Euler(0f, angle, 0f);
         }
-    }
-
-    public IEnumerator OnStun(float seconds)
-    {
-        _stunned = true;
-        yield return new WaitForSeconds(seconds);
-        _stunned = false;
     }
 
     public void OnMove(InputAction.CallbackContext context) => _movementInput = context.ReadValue<Vector2>();
