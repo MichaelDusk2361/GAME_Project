@@ -7,10 +7,18 @@ public class CameraControl : MonoBehaviour
     public List<Transform> Targets = new();
     [SerializeField] int bufferOut = 100;
     [SerializeField] int bufferIn = 140;
-    void Update()
+    [SerializeField] float zoomSpeed = 5;
+    [SerializeField] float minY = 5;
+    [SerializeField] Vector3 offset;
+
+    float yVal = 0;
+
+    void LateUpdate()
     {
         if (Targets.Count == 0)
             return;
+
+        yVal = transform.position.y;
 
         bool outside = false;
         Vector3 vp;
@@ -31,7 +39,7 @@ public class CameraControl : MonoBehaviour
         }
         if (outside)
         {
-            transform.position -= new Vector3(0, 0, 7) * Time.deltaTime;
+            yVal = transform.position.y + offset.y + zoomSpeed * Time.deltaTime;
         }
         else
         {
@@ -43,7 +51,25 @@ public class CameraControl : MonoBehaviour
                 if (vp.x > bufferIn && vp.x < Screen.width - bufferIn && vp.y > bufferIn && vp.y < Screen.height - bufferIn) ++countIn;
             }
             if (countIn == cnt)
-                transform.position += new Vector3(0, 0, 7) * Time.deltaTime;
+            {
+                yVal = transform.position.y + offset.y - zoomSpeed * Time.deltaTime;
+            }
         }
+
+        float normPosX = 0;
+        float normPosZ = 0;
+        for (int i = 0; i < Targets.Count; i++)
+        {
+            normPosX = Targets[i].position.x;
+            normPosZ = Targets[i].position.z;
+        }
+
+        transform.position = new Vector3(
+            offset.x + normPosX / Targets.Count,
+             Mathf.Clamp(
+                    yVal,
+                    minY,
+                    float.MaxValue),
+            offset.z + normPosZ / Targets.Count);
     }
 }
