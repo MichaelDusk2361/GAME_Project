@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 public class PlayerManager : MonoBehaviour
 {
     [SerializeField] private Material[] _playerMaterials;
+    [SerializeField] private Material[] _playerPaintMaterials;
     public Dictionary<int, Vector3> SpawnPoints;
 
     private PlayerInputManager _playerInputManager;
@@ -28,7 +29,9 @@ public class PlayerManager : MonoBehaviour
         // Set player properties
         int index = _playerIndex++;
         player.GetComponent<MeshRenderer>().material = _playerMaterials[index];
+        player.GetComponent<PlayerPainter>().PaintMaterial = _playerPaintMaterials[index];
 
         player.transform.position = SpawnPoints[index];
+        Camera.main.GetComponent<CameraControl>().Targets.Add(player.transform);
     }
 }
