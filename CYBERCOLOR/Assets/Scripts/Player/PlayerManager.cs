@@ -10,7 +10,8 @@ public class PlayerManager : MonoBehaviour
 
     [SerializeField] private Material[] _playerMaterials;
     [SerializeField] private Material[] _playerPaintMaterials;
-    public Dictionary<int, Vector3> SpawnPoints;
+
+    public Dictionary<int, Vector3> SpawnPoints { get; set; }
 
     private int _playerIndex;
 

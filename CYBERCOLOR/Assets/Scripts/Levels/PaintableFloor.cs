@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class PaintableFloor : MonoBehaviour
 {
-    public PlayerPainter LastPaintedPlayer;
-    private MeshRenderer _mr;
+    public PlayerPainter LastPaintedPlayer { get; set; }
+    private MeshRenderer _meshRenderer;
 
     void Start()
     {
         ScoreManager.Singleton.TotalFields++;
-        _mr = GetComponent<MeshRenderer>();
+        _meshRenderer = GetComponent<MeshRenderer>();
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collider)
     {
-        if(collision.gameObject.GetComponent<PlayerPainter>() is PlayerPainter player)
+        if(collider.gameObject.GetComponent<PlayerPainter>() is PlayerPainter player)
         {
             PaintFloor(player);
         }
@@ -28,6 +28,6 @@ public class PaintableFloor : MonoBehaviour
         ScoreManager.Singleton.AddScore(player, 1);
 
         LastPaintedPlayer = player;
-        _mr.material = LastPaintedPlayer.PaintMaterial;
+        _meshRenderer.material = LastPaintedPlayer.PaintMaterial;
     }
 }

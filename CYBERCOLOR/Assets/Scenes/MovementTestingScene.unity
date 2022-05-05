@@ -2604,10 +2604,10 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 3208e5df577ecd14ba87990b7f0181bc, type: 2}
   - {fileID: 2100000, guid: fa4aeac1667658a4ca879035d9b72103, type: 2}
   _playerPaintMaterials:
-  - {fileID: 2100000, guid: 8d439efd18ddcea499b8062b9ec9475c, type: 2}
-  - {fileID: 2100000, guid: 80891b0efc3fa4547bad217420b2d0b4, type: 2}
-  - {fileID: 2100000, guid: 3208e5df577ecd14ba87990b7f0181bc, type: 2}
-  - {fileID: 2100000, guid: fa4aeac1667658a4ca879035d9b72103, type: 2}
+  - {fileID: 2100000, guid: 05302a48feb7160459de70dc13acb6c9, type: 2}
+  - {fileID: 2100000, guid: c9273763dca8a8b41b22c48098339ac0, type: 2}
+  - {fileID: 2100000, guid: 1e85bca440862494395587e80bd0c257, type: 2}
+  - {fileID: 2100000, guid: fdffeec3b1bae3d45bc4a2024de5d8aa, type: 2}
 --- !u!1001 &835082307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3856,14 +3856,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1757706064}
-  m_LocalRotation: {x: 0.53729963, y: 0, z: 0, w: 0.8433915}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 12.5, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 65, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &1757706068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3910,7 +3910,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Targets: []
-  bufferOut: 120
   bufferIn: 60
   zoomSpeed: 10
   minY: 10

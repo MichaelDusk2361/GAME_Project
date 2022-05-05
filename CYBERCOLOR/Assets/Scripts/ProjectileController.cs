@@ -2,46 +2,70 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum ProjectileState { Charging, Released }
+
 public class ProjectileController : MonoBehaviour
 {
+    [SerializeField]
+    private float _projectileSpeed = 14;
+    [SerializeField]
+    private float _colorRadius = 4;
+    public ProjectileState state = ProjectileState.Charging;
     // Start is called before the first frame update
-    public bool IsReleased { get; set; } = false;
     public PlayerPainter Player { get; set; }
-
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
-        if (IsReleased)
+        switch (state)
         {
-            transform.position += transform.forward * 14 * Time.deltaTime;
+            case ProjectileState.Charging:
+                break;
+            case ProjectileState.Released:
+                transform.Translate(_projectileSpeed * Time.deltaTime * Vector3.forward);
+                break;
+            default:
+                break;
         }
     }
 
-    private void FixedUpdate()
+    public void Init(PlayerPainter player)
     {
-        if (IsReleased)
-        {
+        transform.localPosition += Vector3.forward * 1.5f;
+        Player = player;
+    }
+    IEnumerator Start()
+    {
+        GetComponent<Rigidbody>().isKinematic = true;
+        yield return new WaitForSeconds(3f);
+        Destroy(gameObject);
+    }
 
-            Collider[] hitColliders = Physics.OverlapSphere(transform.position - new Vector3(0, 1.5f, 0), gameObject.GetComponent<SphereCollider>().bounds.size.y);
-            
-            foreach (var collider in hitColliders)
-            {
-                if (collider.gameObject.GetComponent<PaintableFloor>() is PaintableFloor paintableFloor)
-                {
-                    paintableFloor.PaintFloor(Player);
-                }
-            }
-        }
+    public void Release()
+    {
+        state = ProjectileState.Released;
+        transform.parent = null;
+        GetComponent<Rigidbody>().isKinematic = false;
     }
 
     private void OnTriggerEnter(Collider other)
     {
-         Destroy (gameObject);
-    }
+        if (other.gameObject == this || other.gameObject == Player.gameObject || state == ProjectileState.Charging)
+            return;
 
+        Collider[] hitColliders = Physics.OverlapSphere(transform.position, _colorRadius);
+
+        foreach (var collider in hitColliders)
+        {
+            if (collider.gameObject.GetComponent<PaintableFloor>() is PaintableFloor paintableFloor)
+            {
+                paintableFloor.PaintFloor(Player);
+            }
+        }
+        Destroy(gameObject);
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(transform.position, _colorRadius);
+    }
 }

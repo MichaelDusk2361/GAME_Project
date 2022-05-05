@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class PlayerPainter : MonoBehaviour
 {
-    public Material PaintMaterial;
+    public Material PaintMaterial { get; set; }
 }
