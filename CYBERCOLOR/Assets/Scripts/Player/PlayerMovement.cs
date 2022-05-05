@@ -7,14 +7,13 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     public float Speed = 5f;
-    public float SpeedMultiplier = 10f;
+    public float MaxSpeed = 5f;
     public bool Stunned;
 
     [Header("Debugging Variables")]
     [SerializeField] private Vector2 _movementInput;
     [SerializeField] private Vector3 _moveVector;
     [SerializeField] private Vector2 _rotateInput;
-    [SerializeField] private float _angle;
 
     private Rigidbody _rigidbody;
 
@@ -34,16 +33,17 @@ public class PlayerMovement : MonoBehaviour
         if (Stunned)
             return;
 
-        _moveVector = new Vector3(_movementInput.x, 0, _movementInput.y) * Speed * SpeedMultiplier * Time.fixedDeltaTime;
+        _moveVector = new Vector3(_movementInput.x, 0, _movementInput.y) * Speed * Time.fixedDeltaTime;
 
-        _angle = Vector3.Angle(_moveVector, _rigidbody.velocity);
-        if (_angle > 90)
-            _moveVector *= 5f;
-            
         _rigidbody.AddForce(_moveVector, ForceMode.VelocityChange);
 
+        _rigidbody.velocity = new Vector3(
+            Mathf.Clamp(_rigidbody.velocity.x, -MaxSpeed, MaxSpeed),
+            _rigidbody.velocity.y,
+            Mathf.Clamp(_rigidbody.velocity.z, -MaxSpeed, MaxSpeed));
+
         // Prevents reset of rotation to vector 0, 0 (0 degrees angle)
-        if(_rotateInput.x != 0f && _rotateInput.y != 0f)
+        if (_rotateInput.x != 0f && _rotateInput.y != 0f)
         {
             float angle = Mathf.Atan2(_rotateInput.x, _rotateInput.y) * Mathf.Rad2Deg;
             _rigidbody.rotation = Quaternion.Euler(0f, angle, 0f);
