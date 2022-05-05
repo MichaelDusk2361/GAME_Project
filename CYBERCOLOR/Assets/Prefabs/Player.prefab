@@ -137,6 +137,8 @@ MonoBehaviour:
   _movementInput: {x: 0, y: 0}
   _moveVector: {x: 0, y: 0, z: 0}
   _rotateInput: {x: 0, y: 0}
+  projectile: {fileID: 8901979305493734482, guid: 8f57e1494912a1e498b0c73a672ffdf0,
+    type: 3}
 --- !u!114 &8488329003368722591
 MonoBehaviour:
   m_ObjectHideFlags: 0
