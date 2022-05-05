@@ -40,7 +40,9 @@ public class PlayerMovement : MonoBehaviour
             float spawnDistance = 1.6f;
             var spawnPos = playerPos + new Vector3(0f, 0.5f, 0f) + playerDirection * spawnDistance;
             _currentlyHeldProjectile = Instantiate(projectile, spawnPos, playerRotation);
+            _currentlyHeldProjectile.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
             _projectileController = _currentlyHeldProjectile.GetComponent<ProjectileController>();
+            _projectileController.Player = GetComponent<PlayerPainter>();
         }
         //changing size of projectile and move with player until released
         if (_projectileController != null)
