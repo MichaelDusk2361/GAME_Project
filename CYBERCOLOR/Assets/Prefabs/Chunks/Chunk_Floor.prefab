@@ -18,7 +18,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8790793152008227317
 Transform:
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 113472416071967322}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: -4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &227774479919715564
 GameObject:
   m_ObjectHideFlags: 0
@@ -130,7 +130,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8568828111947377076
 Transform:
@@ -141,7 +141,7 @@ Transform:
   m_GameObject: {fileID: 227774479919715564}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.5, y: 0, z: -1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -175,7 +175,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &254432166857787244
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,7 +242,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3142100547530718038
 Transform:
@@ -253,7 +253,7 @@ Transform:
   m_GameObject: {fileID: 254432166857787244}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.5, y: 0, z: -1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -287,7 +287,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &415574635475042917
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,7 +354,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7087956341910962569
 Transform:
@@ -365,7 +365,7 @@ Transform:
   m_GameObject: {fileID: 415574635475042917}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -399,7 +399,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -447,7 +447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &496422389210784449
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,7 +466,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7469420439052917514
 Transform:
@@ -477,7 +477,7 @@ Transform:
   m_GameObject: {fileID: 496422389210784449}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.5, y: 0, z: -3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -511,7 +511,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -559,7 +559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &512918479425998202
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,7 +578,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6422267360665783126
 Transform:
@@ -589,7 +589,7 @@ Transform:
   m_GameObject: {fileID: 512918479425998202}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.5, y: 0, z: -2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -623,7 +623,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -671,7 +671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &556620676177352702
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,7 +690,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3244351843458716772
 Transform:
@@ -701,7 +701,7 @@ Transform:
   m_GameObject: {fileID: 556620676177352702}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.5, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -735,7 +735,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -783,7 +783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &579243965448131976
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,7 +802,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4772593398706259902
 Transform:
@@ -813,7 +813,7 @@ Transform:
   m_GameObject: {fileID: 579243965448131976}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.5, y: 0, z: -4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -847,7 +847,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -895,7 +895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &580056252782822506
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,7 +914,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5658288924098290087
 Transform:
@@ -925,7 +925,7 @@ Transform:
   m_GameObject: {fileID: 580056252782822506}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.5, y: 0, z: -4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -959,7 +959,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1007,7 +1007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &600642324662707833
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,7 +1026,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3715594920668532515
 Transform:
@@ -1037,7 +1037,7 @@ Transform:
   m_GameObject: {fileID: 600642324662707833}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.5, y: 0, z: 1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -1071,7 +1071,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1119,7 +1119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &666317374315359916
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,7 +1138,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &58231225010449724
 Transform:
@@ -1149,7 +1149,7 @@ Transform:
   m_GameObject: {fileID: 666317374315359916}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 0, z: -1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -1183,7 +1183,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1231,7 +1231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &676950078852225700
 GameObject:
   m_ObjectHideFlags: 0
@@ -1250,7 +1250,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2569273675536926099
 Transform:
@@ -1261,7 +1261,7 @@ Transform:
   m_GameObject: {fileID: 676950078852225700}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 0, z: 3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -1295,7 +1295,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1343,7 +1343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &754828812592516348
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,7 +1362,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3285871110196088807
 Transform:
@@ -1373,7 +1373,7 @@ Transform:
   m_GameObject: {fileID: 754828812592516348}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 0, z: 2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -1407,7 +1407,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1455,7 +1455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &788287994943345870
 GameObject:
   m_ObjectHideFlags: 0
@@ -1474,7 +1474,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4719330897679204649
 Transform:
@@ -1485,7 +1485,7 @@ Transform:
   m_GameObject: {fileID: 788287994943345870}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.5, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -1519,7 +1519,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1567,7 +1567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &829817638482748958
 GameObject:
   m_ObjectHideFlags: 0
@@ -1586,7 +1586,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3292897638702293380
 Transform:
@@ -1597,7 +1597,7 @@ Transform:
   m_GameObject: {fileID: 829817638482748958}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.5, y: 0, z: 3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -1631,7 +1631,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1679,7 +1679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &961508253944163958
 GameObject:
   m_ObjectHideFlags: 0
@@ -1698,7 +1698,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4327616214252584012
 Transform:
@@ -1709,7 +1709,7 @@ Transform:
   m_GameObject: {fileID: 961508253944163958}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.5, y: 0, z: 3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -1743,7 +1743,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1791,7 +1791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &963959829058958891
 GameObject:
   m_ObjectHideFlags: 0
@@ -1810,7 +1810,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1525434557346451712
 Transform:
@@ -1821,7 +1821,7 @@ Transform:
   m_GameObject: {fileID: 963959829058958891}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.5, y: 0, z: 1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -1855,7 +1855,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1903,7 +1903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &999719769618197678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1922,7 +1922,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8455142463445917912
 Transform:
@@ -1933,7 +1933,7 @@ Transform:
   m_GameObject: {fileID: 999719769618197678}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.5, y: 0, z: 2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -1967,7 +1967,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2015,7 +2015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &1140710528191038512
 GameObject:
   m_ObjectHideFlags: 0
@@ -2034,7 +2034,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4882003646806584351
 Transform:
@@ -2045,7 +2045,7 @@ Transform:
   m_GameObject: {fileID: 1140710528191038512}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -2079,7 +2079,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2127,7 +2127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &1143897119539719635
 GameObject:
   m_ObjectHideFlags: 0
@@ -2146,7 +2146,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &809439731463240139
 Transform:
@@ -2157,7 +2157,7 @@ Transform:
   m_GameObject: {fileID: 1143897119539719635}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: 3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -2191,7 +2191,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2239,7 +2239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &1164655513906927403
 GameObject:
   m_ObjectHideFlags: 0
@@ -2258,7 +2258,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6662666048968241472
 Transform:
@@ -2269,7 +2269,7 @@ Transform:
   m_GameObject: {fileID: 1164655513906927403}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.5, y: 0, z: -3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -2303,7 +2303,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2351,7 +2351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &1308453538641165651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2370,7 +2370,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2755953934476812381
 Transform:
@@ -2381,7 +2381,7 @@ Transform:
   m_GameObject: {fileID: 1308453538641165651}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.5, y: 0, z: 1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -2415,7 +2415,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2463,7 +2463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &1407062696651059557
 GameObject:
   m_ObjectHideFlags: 0
@@ -2482,7 +2482,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1389483587450973329
 Transform:
@@ -2493,7 +2493,7 @@ Transform:
   m_GameObject: {fileID: 1407062696651059557}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -2527,7 +2527,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2575,7 +2575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &1427280843743978568
 GameObject:
   m_ObjectHideFlags: 0
@@ -2594,7 +2594,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1366003158937747958
 Transform:
@@ -2605,7 +2605,7 @@ Transform:
   m_GameObject: {fileID: 1427280843743978568}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: -1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -2639,7 +2639,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2687,7 +2687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &1518513146521067211
 GameObject:
   m_ObjectHideFlags: 0
@@ -2706,7 +2706,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5166883602580468722
 Transform:
@@ -2717,7 +2717,7 @@ Transform:
   m_GameObject: {fileID: 1518513146521067211}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.5, y: 0, z: 3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -2751,7 +2751,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2799,7 +2799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &1567209262821237204
 GameObject:
   m_ObjectHideFlags: 0
@@ -2818,7 +2818,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8342346450842200059
 Transform:
@@ -2829,7 +2829,7 @@ Transform:
   m_GameObject: {fileID: 1567209262821237204}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.5, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -2863,7 +2863,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2911,7 +2911,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &1587023370892312622
 GameObject:
   m_ObjectHideFlags: 0
@@ -2930,7 +2930,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6898319493424049669
 Transform:
@@ -2941,7 +2941,7 @@ Transform:
   m_GameObject: {fileID: 1587023370892312622}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.5, y: 0, z: -1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -2975,7 +2975,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3023,7 +3023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &1651289483298628092
 GameObject:
   m_ObjectHideFlags: 0
@@ -3042,7 +3042,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1355610923043163197
 Transform:
@@ -3053,7 +3053,7 @@ Transform:
   m_GameObject: {fileID: 1651289483298628092}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.5, y: 0, z: -2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -3087,7 +3087,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3135,7 +3135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &1831662672008502755
 GameObject:
   m_ObjectHideFlags: 0
@@ -3154,7 +3154,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3819905395351452175
 Transform:
@@ -3165,7 +3165,7 @@ Transform:
   m_GameObject: {fileID: 1831662672008502755}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -3199,7 +3199,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3247,7 +3247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &1893881206200554948
 GameObject:
   m_ObjectHideFlags: 0
@@ -3266,7 +3266,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1976771428024218859
 Transform:
@@ -3277,7 +3277,7 @@ Transform:
   m_GameObject: {fileID: 1893881206200554948}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -3311,7 +3311,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3359,7 +3359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &1931684348096961026
 GameObject:
   m_ObjectHideFlags: 0
@@ -3378,7 +3378,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7274730179140493531
 Transform:
@@ -3389,7 +3389,7 @@ Transform:
   m_GameObject: {fileID: 1931684348096961026}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.5, y: 0, z: -4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -3423,7 +3423,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3471,7 +3471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &1995894119400967974
 GameObject:
   m_ObjectHideFlags: 0
@@ -3490,7 +3490,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &835400670979361466
 Transform:
@@ -3501,7 +3501,7 @@ Transform:
   m_GameObject: {fileID: 1995894119400967974}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 0, z: -2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -3535,7 +3535,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3583,7 +3583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &2142926051555827478
 GameObject:
   m_ObjectHideFlags: 0
@@ -3602,7 +3602,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4637978340664512089
 Transform:
@@ -3613,7 +3613,7 @@ Transform:
   m_GameObject: {fileID: 2142926051555827478}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: 1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -3647,7 +3647,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3695,7 +3695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &2267941102446188541
 GameObject:
   m_ObjectHideFlags: 0
@@ -3714,7 +3714,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1385303931798331837
 Transform:
@@ -3725,7 +3725,7 @@ Transform:
   m_GameObject: {fileID: 2267941102446188541}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.5, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -3759,7 +3759,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3807,7 +3807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &2306330280451735682
 GameObject:
   m_ObjectHideFlags: 0
@@ -3826,7 +3826,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3679821163331062136
 Transform:
@@ -3837,7 +3837,7 @@ Transform:
   m_GameObject: {fileID: 2306330280451735682}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.5, y: 0, z: -4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -3871,7 +3871,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3919,7 +3919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &2594627894131559922
 GameObject:
   m_ObjectHideFlags: 0
@@ -3938,7 +3938,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4188564079867800934
 Transform:
@@ -3949,7 +3949,7 @@ Transform:
   m_GameObject: {fileID: 2594627894131559922}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.5, y: 0, z: -3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -3983,7 +3983,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4031,7 +4031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &2757401528021481107
 GameObject:
   m_ObjectHideFlags: 0
@@ -4050,7 +4050,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3910091548147100661
 Transform:
@@ -4061,7 +4061,7 @@ Transform:
   m_GameObject: {fileID: 2757401528021481107}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.5, y: 0, z: -1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -4095,7 +4095,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4143,7 +4143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &3043250538263117213
 GameObject:
   m_ObjectHideFlags: 0
@@ -4162,7 +4162,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5769055105152975184
 Transform:
@@ -4173,7 +4173,7 @@ Transform:
   m_GameObject: {fileID: 3043250538263117213}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.5, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -4207,7 +4207,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4255,7 +4255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &3335051377576386383
 GameObject:
   m_ObjectHideFlags: 0
@@ -4270,7 +4270,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3335051377576386379
 Transform:
@@ -4384,6 +4384,7 @@ Transform:
   - {fileID: 835400670979361466}
   - {fileID: 1106432226792802094}
   - {fileID: 5670722057279144798}
+  - {fileID: 7361590824609876339}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4405,7 +4406,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5043178788771801875
 Transform:
@@ -4416,7 +4417,7 @@ Transform:
   m_GameObject: {fileID: 3568370200986507725}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.5, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -4450,7 +4451,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4498,7 +4499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &3575915199386369579
 GameObject:
   m_ObjectHideFlags: 0
@@ -4517,7 +4518,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1160001269436549521
 Transform:
@@ -4528,7 +4529,7 @@ Transform:
   m_GameObject: {fileID: 3575915199386369579}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.5, y: 0, z: 2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -4562,7 +4563,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4610,7 +4611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &3655163048984092571
 GameObject:
   m_ObjectHideFlags: 0
@@ -4629,7 +4630,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6805846552039431692
 Transform:
@@ -4640,7 +4641,7 @@ Transform:
   m_GameObject: {fileID: 3655163048984092571}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.5, y: 0, z: 2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -4674,7 +4675,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4722,7 +4723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &3761338999857124594
 GameObject:
   m_ObjectHideFlags: 0
@@ -4741,7 +4742,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8739180931321121858
 Transform:
@@ -4752,7 +4753,7 @@ Transform:
   m_GameObject: {fileID: 3761338999857124594}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: -3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -4786,7 +4787,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4834,7 +4835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &4021445613483805313
 GameObject:
   m_ObjectHideFlags: 0
@@ -4853,7 +4854,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1106432226792802094
 Transform:
@@ -4864,7 +4865,7 @@ Transform:
   m_GameObject: {fileID: 4021445613483805313}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 0, z: -3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -4898,7 +4899,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4946,7 +4947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &4139395475276861487
 GameObject:
   m_ObjectHideFlags: 0
@@ -4965,7 +4966,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8868989266885689131
 Transform:
@@ -4976,7 +4977,7 @@ Transform:
   m_GameObject: {fileID: 4139395475276861487}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.5, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -5010,7 +5011,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5058,7 +5059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &4198980209157091377
 GameObject:
   m_ObjectHideFlags: 0
@@ -5077,7 +5078,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6444535002220801287
 Transform:
@@ -5088,7 +5089,7 @@ Transform:
   m_GameObject: {fileID: 4198980209157091377}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -5122,7 +5123,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5170,7 +5171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &4241754366441111886
 GameObject:
   m_ObjectHideFlags: 0
@@ -5189,7 +5190,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2820360762791066248
 Transform:
@@ -5200,7 +5201,7 @@ Transform:
   m_GameObject: {fileID: 4241754366441111886}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.5, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -5234,7 +5235,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5282,7 +5283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &4306811648073726498
 GameObject:
   m_ObjectHideFlags: 0
@@ -5301,7 +5302,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7495462356181236898
 Transform:
@@ -5312,7 +5313,7 @@ Transform:
   m_GameObject: {fileID: 4306811648073726498}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.5, y: 0, z: 2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -5346,7 +5347,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5394,7 +5395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &4323059537448982933
 GameObject:
   m_ObjectHideFlags: 0
@@ -5413,7 +5414,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &711823425083473624
 Transform:
@@ -5424,7 +5425,7 @@ Transform:
   m_GameObject: {fileID: 4323059537448982933}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.5, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -5458,7 +5459,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5506,7 +5507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &4420052981090446302
 GameObject:
   m_ObjectHideFlags: 0
@@ -5525,7 +5526,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3375864946730711397
 Transform:
@@ -5536,7 +5537,7 @@ Transform:
   m_GameObject: {fileID: 4420052981090446302}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.5, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -5570,7 +5571,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5618,7 +5619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &4618832665368218510
 GameObject:
   m_ObjectHideFlags: 0
@@ -5637,7 +5638,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1532835251558370630
 Transform:
@@ -5648,7 +5649,7 @@ Transform:
   m_GameObject: {fileID: 4618832665368218510}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 0, z: 1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -5682,7 +5683,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5730,7 +5731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &4741098582527970631
 GameObject:
   m_ObjectHideFlags: 0
@@ -5749,7 +5750,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7488194830998876512
 Transform:
@@ -5760,7 +5761,7 @@ Transform:
   m_GameObject: {fileID: 4741098582527970631}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.5, y: 0, z: 1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -5794,7 +5795,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5842,7 +5843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &5066688697907815491
 GameObject:
   m_ObjectHideFlags: 0
@@ -5861,7 +5862,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1347525801991215084
 Transform:
@@ -5872,7 +5873,7 @@ Transform:
   m_GameObject: {fileID: 5066688697907815491}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.5, y: 0, z: -1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -5906,7 +5907,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5954,7 +5955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &5130843119613931707
 GameObject:
   m_ObjectHideFlags: 0
@@ -5973,7 +5974,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5878402320885941564
 Transform:
@@ -5984,7 +5985,7 @@ Transform:
   m_GameObject: {fileID: 5130843119613931707}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.5, y: 0, z: 1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -6018,7 +6019,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6066,7 +6067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &5188158436463752786
 GameObject:
   m_ObjectHideFlags: 0
@@ -6085,7 +6086,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4350897175167534599
 Transform:
@@ -6096,7 +6097,7 @@ Transform:
   m_GameObject: {fileID: 5188158436463752786}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -6130,7 +6131,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6178,7 +6179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &5270695686163537708
 GameObject:
   m_ObjectHideFlags: 0
@@ -6197,7 +6198,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7503612106642952430
 Transform:
@@ -6208,7 +6209,7 @@ Transform:
   m_GameObject: {fileID: 5270695686163537708}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: 1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -6242,7 +6243,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6290,7 +6291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &5280628285311259144
 GameObject:
   m_ObjectHideFlags: 0
@@ -6309,7 +6310,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2264771767322110424
 Transform:
@@ -6320,7 +6321,7 @@ Transform:
   m_GameObject: {fileID: 5280628285311259144}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.5, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -6354,7 +6355,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6402,7 +6403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &5544262731218945679
 GameObject:
   m_ObjectHideFlags: 0
@@ -6421,7 +6422,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3615651312458794865
 Transform:
@@ -6432,7 +6433,7 @@ Transform:
   m_GameObject: {fileID: 5544262731218945679}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.5, y: 0, z: -3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -6466,7 +6467,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6514,7 +6515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &5656565263355583851
 GameObject:
   m_ObjectHideFlags: 0
@@ -6533,7 +6534,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8748615191478721161
 Transform:
@@ -6544,7 +6545,7 @@ Transform:
   m_GameObject: {fileID: 5656565263355583851}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.5, y: 0, z: -2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -6578,7 +6579,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6626,7 +6627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &5666193535632631768
 GameObject:
   m_ObjectHideFlags: 0
@@ -6645,7 +6646,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4262238295597546711
 Transform:
@@ -6656,7 +6657,7 @@ Transform:
   m_GameObject: {fileID: 5666193535632631768}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: 3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -6690,7 +6691,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6738,7 +6739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &5684553547864332253
 GameObject:
   m_ObjectHideFlags: 0
@@ -6757,7 +6758,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1182877327823329494
 Transform:
@@ -6768,7 +6769,7 @@ Transform:
   m_GameObject: {fileID: 5684553547864332253}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -6802,7 +6803,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6850,7 +6851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &5793518067919591681
 GameObject:
   m_ObjectHideFlags: 0
@@ -6869,7 +6870,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3477802739102609029
 Transform:
@@ -6880,7 +6881,7 @@ Transform:
   m_GameObject: {fileID: 5793518067919591681}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: 2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -6914,7 +6915,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6962,7 +6963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &5952429034796427605
 GameObject:
   m_ObjectHideFlags: 0
@@ -6981,7 +6982,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5618306667471939943
 Transform:
@@ -6992,7 +6993,7 @@ Transform:
   m_GameObject: {fileID: 5952429034796427605}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.5, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -7026,7 +7027,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7074,7 +7075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &5974239445572735367
 GameObject:
   m_ObjectHideFlags: 0
@@ -7093,7 +7094,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5505042729333909751
 Transform:
@@ -7104,7 +7105,7 @@ Transform:
   m_GameObject: {fileID: 5974239445572735367}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.5, y: 0, z: -2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -7138,7 +7139,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7186,7 +7187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &5976664098399889448
 GameObject:
   m_ObjectHideFlags: 0
@@ -7205,7 +7206,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5652308791429807556
 Transform:
@@ -7216,7 +7217,7 @@ Transform:
   m_GameObject: {fileID: 5976664098399889448}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -7250,7 +7251,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7298,7 +7299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &6031761118843563539
 GameObject:
   m_ObjectHideFlags: 0
@@ -7317,7 +7318,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2705423985212156976
 Transform:
@@ -7328,7 +7329,7 @@ Transform:
   m_GameObject: {fileID: 6031761118843563539}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.5, y: 0, z: -3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -7362,7 +7363,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7410,7 +7411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &6063464541391821967
 GameObject:
   m_ObjectHideFlags: 0
@@ -7429,7 +7430,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7113066191978237969
 Transform:
@@ -7440,7 +7441,7 @@ Transform:
   m_GameObject: {fileID: 6063464541391821967}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.5, y: 0, z: -2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -7474,7 +7475,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7522,7 +7523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &6257752727263214232
 GameObject:
   m_ObjectHideFlags: 0
@@ -7541,7 +7542,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1110271200888741562
 Transform:
@@ -7552,7 +7553,7 @@ Transform:
   m_GameObject: {fileID: 6257752727263214232}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.5, y: 0, z: 3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -7586,7 +7587,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7634,7 +7635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &6325405436408105224
 GameObject:
   m_ObjectHideFlags: 0
@@ -7653,7 +7654,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1009645348896530768
 Transform:
@@ -7664,7 +7665,7 @@ Transform:
   m_GameObject: {fileID: 6325405436408105224}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -7698,7 +7699,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7746,7 +7747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &6412759465937747099
 GameObject:
   m_ObjectHideFlags: 0
@@ -7765,7 +7766,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7269652614262410192
 Transform:
@@ -7776,7 +7777,7 @@ Transform:
   m_GameObject: {fileID: 6412759465937747099}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: -4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -7810,7 +7811,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7858,7 +7859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &6456541900617209048
 GameObject:
   m_ObjectHideFlags: 0
@@ -7877,7 +7878,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7511914943964317474
 Transform:
@@ -7888,7 +7889,7 @@ Transform:
   m_GameObject: {fileID: 6456541900617209048}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.5, y: 0, z: 0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -7922,7 +7923,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7970,7 +7971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &6634462618431446185
 GameObject:
   m_ObjectHideFlags: 0
@@ -7989,7 +7990,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &366741476711714687
 Transform:
@@ -8000,7 +8001,7 @@ Transform:
   m_GameObject: {fileID: 6634462618431446185}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.5, y: 0, z: 3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -8034,7 +8035,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8082,7 +8083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &6647851024584181226
 GameObject:
   m_ObjectHideFlags: 0
@@ -8101,7 +8102,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7819101607804704842
 Transform:
@@ -8112,7 +8113,7 @@ Transform:
   m_GameObject: {fileID: 6647851024584181226}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.5, y: 0, z: 2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -8146,7 +8147,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8194,7 +8195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &6668288541466745974
 GameObject:
   m_ObjectHideFlags: 0
@@ -8213,7 +8214,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &361674640800501189
 Transform:
@@ -8224,7 +8225,7 @@ Transform:
   m_GameObject: {fileID: 6668288541466745974}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: -2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -8258,7 +8259,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8306,7 +8307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &6822309696207117576
 GameObject:
   m_ObjectHideFlags: 0
@@ -8325,7 +8326,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5084732219960552480
 Transform:
@@ -8336,7 +8337,7 @@ Transform:
   m_GameObject: {fileID: 6822309696207117576}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: -3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -8370,7 +8371,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8418,7 +8419,105 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
+--- !u!1 &7017055543685596933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7361590824609876339}
+  - component: {fileID: 8007251527904998110}
+  - component: {fileID: 650398735230455926}
+  - component: {fileID: 3714147638449075444}
+  m_Layer: 0
+  m_Name: Floor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7361590824609876339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7017055543685596933}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3335051377576386379}
+  m_RootOrder: 100
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8007251527904998110
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7017055543685596933}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &650398735230455926
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7017055543685596933}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3714147638449075444
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7017055543685596933}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &7061699599885055479
 GameObject:
   m_ObjectHideFlags: 0
@@ -8437,7 +8536,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &247774009572191321
 Transform:
@@ -8448,7 +8547,7 @@ Transform:
   m_GameObject: {fileID: 7061699599885055479}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: -1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -8482,7 +8581,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8530,7 +8629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &7134401698604003876
 GameObject:
   m_ObjectHideFlags: 0
@@ -8549,7 +8648,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &606410033162777047
 Transform:
@@ -8560,7 +8659,7 @@ Transform:
   m_GameObject: {fileID: 7134401698604003876}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.5, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -8594,7 +8693,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8642,7 +8741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &7339180952404892791
 GameObject:
   m_ObjectHideFlags: 0
@@ -8661,7 +8760,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6631592720834852857
 Transform:
@@ -8672,7 +8771,7 @@ Transform:
   m_GameObject: {fileID: 7339180952404892791}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.5, y: 0, z: -1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -8706,7 +8805,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8754,7 +8853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &7359621396368835808
 GameObject:
   m_ObjectHideFlags: 0
@@ -8773,7 +8872,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2950862495928875048
 Transform:
@@ -8784,7 +8883,7 @@ Transform:
   m_GameObject: {fileID: 7359621396368835808}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.5, y: 0, z: -4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -8818,7 +8917,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8866,7 +8965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &7412642737648872640
 GameObject:
   m_ObjectHideFlags: 0
@@ -8885,7 +8984,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7387501473885079953
 Transform:
@@ -8896,7 +8995,7 @@ Transform:
   m_GameObject: {fileID: 7412642737648872640}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.5, y: 0, z: 3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -8930,7 +9029,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8978,7 +9077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &7441481670333480155
 GameObject:
   m_ObjectHideFlags: 0
@@ -8997,7 +9096,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &331549654958115546
 Transform:
@@ -9008,7 +9107,7 @@ Transform:
   m_GameObject: {fileID: 7441481670333480155}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.5, y: 0, z: -3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -9042,7 +9141,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9090,7 +9189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &7485917989625090886
 GameObject:
   m_ObjectHideFlags: 0
@@ -9109,7 +9208,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8528569358468685361
 Transform:
@@ -9120,7 +9219,7 @@ Transform:
   m_GameObject: {fileID: 7485917989625090886}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: -0.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -9154,7 +9253,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9202,7 +9301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &7504887181275666436
 GameObject:
   m_ObjectHideFlags: 0
@@ -9221,7 +9320,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5380044009938865063
 Transform:
@@ -9232,7 +9331,7 @@ Transform:
   m_GameObject: {fileID: 7504887181275666436}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.5, y: 0, z: -3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -9266,7 +9365,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9314,7 +9413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &7573339756752639557
 GameObject:
   m_ObjectHideFlags: 0
@@ -9333,7 +9432,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1021449665621626104
 Transform:
@@ -9344,7 +9443,7 @@ Transform:
   m_GameObject: {fileID: 7573339756752639557}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.5, y: 0, z: -2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -9378,7 +9477,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9426,7 +9525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &7642349051888935620
 GameObject:
   m_ObjectHideFlags: 0
@@ -9445,7 +9544,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &9190412810170717350
 Transform:
@@ -9456,7 +9555,7 @@ Transform:
   m_GameObject: {fileID: 7642349051888935620}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -9490,7 +9589,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9538,7 +9637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &7678148236591593359
 GameObject:
   m_ObjectHideFlags: 0
@@ -9557,7 +9656,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2070920236041129908
 Transform:
@@ -9568,7 +9667,7 @@ Transform:
   m_GameObject: {fileID: 7678148236591593359}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.5, y: 0, z: 2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -9602,7 +9701,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9650,7 +9749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &7681884792744755504
 GameObject:
   m_ObjectHideFlags: 0
@@ -9669,7 +9768,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4564279321229139939
 Transform:
@@ -9680,7 +9779,7 @@ Transform:
   m_GameObject: {fileID: 7681884792744755504}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.5, y: 0, z: -2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -9714,7 +9813,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9762,7 +9861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &7743136571694812754
 GameObject:
   m_ObjectHideFlags: 0
@@ -9781,7 +9880,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1613002303358175661
 Transform:
@@ -9792,7 +9891,7 @@ Transform:
   m_GameObject: {fileID: 7743136571694812754}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.5, y: 0, z: -4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -9826,7 +9925,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9874,7 +9973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &7818602247413035360
 GameObject:
   m_ObjectHideFlags: 0
@@ -9893,7 +9992,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1553024950156817062
 Transform:
@@ -9904,7 +10003,7 @@ Transform:
   m_GameObject: {fileID: 7818602247413035360}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: -2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -9938,7 +10037,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9986,7 +10085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &8058939310156076939
 GameObject:
   m_ObjectHideFlags: 0
@@ -10005,7 +10104,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &713367751312803151
 Transform:
@@ -10016,7 +10115,7 @@ Transform:
   m_GameObject: {fileID: 8058939310156076939}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.5, y: 0, z: 1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -10050,7 +10149,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10098,7 +10197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &8237278955072045777
 GameObject:
   m_ObjectHideFlags: 0
@@ -10117,7 +10216,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4391891340839937543
 Transform:
@@ -10128,7 +10227,7 @@ Transform:
   m_GameObject: {fileID: 8237278955072045777}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.5, y: 0, z: 2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -10162,7 +10261,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10210,7 +10309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &8287330182055781140
 GameObject:
   m_ObjectHideFlags: 0
@@ -10229,7 +10328,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8937378193976390099
 Transform:
@@ -10240,7 +10339,7 @@ Transform:
   m_GameObject: {fileID: 8287330182055781140}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -10274,7 +10373,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10322,7 +10421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &8297108466569855620
 GameObject:
   m_ObjectHideFlags: 0
@@ -10341,7 +10440,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3052324391426431647
 Transform:
@@ -10352,7 +10451,7 @@ Transform:
   m_GameObject: {fileID: 8297108466569855620}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.5, y: 0, z: -4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -10386,7 +10485,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10434,7 +10533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &8774832846711198026
 GameObject:
   m_ObjectHideFlags: 0
@@ -10453,7 +10552,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4105864556845179366
 Transform:
@@ -10464,7 +10563,7 @@ Transform:
   m_GameObject: {fileID: 8774832846711198026}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: 2.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -10498,7 +10597,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10546,7 +10645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &8929910327882615439
 GameObject:
   m_ObjectHideFlags: 0
@@ -10565,7 +10664,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8163562887724497427
 Transform:
@@ -10576,7 +10675,7 @@ Transform:
   m_GameObject: {fileID: 8929910327882615439}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -10610,7 +10709,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10658,7 +10757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &8933541542218104116
 GameObject:
   m_ObjectHideFlags: 0
@@ -10677,7 +10776,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8410499541365503230
 Transform:
@@ -10688,7 +10787,7 @@ Transform:
   m_GameObject: {fileID: 8933541542218104116}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.5, y: 0, z: 1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -10722,7 +10821,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10770,7 +10869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &9042883824186301881
 GameObject:
   m_ObjectHideFlags: 0
@@ -10789,7 +10888,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8699910526439849575
 Transform:
@@ -10800,7 +10899,7 @@ Transform:
   m_GameObject: {fileID: 9042883824186301881}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.5, y: 0, z: 3.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -10834,7 +10933,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10882,7 +10981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &9045948857742155846
 GameObject:
   m_ObjectHideFlags: 0
@@ -10901,7 +11000,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5670722057279144798
 Transform:
@@ -10912,7 +11011,7 @@ Transform:
   m_GameObject: {fileID: 9045948857742155846}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 0, z: -4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -10946,7 +11045,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10994,7 +11093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &9054273743547278037
 GameObject:
   m_ObjectHideFlags: 0
@@ -11013,7 +11112,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4933766755243385397
 Transform:
@@ -11024,7 +11123,7 @@ Transform:
   m_GameObject: {fileID: 9054273743547278037}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.5, y: 0, z: -1.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -11058,7 +11157,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11106,7 +11205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &9060768289304018723
 GameObject:
   m_ObjectHideFlags: 0
@@ -11125,7 +11224,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3408991858267649221
 Transform:
@@ -11136,7 +11235,7 @@ Transform:
   m_GameObject: {fileID: 9060768289304018723}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -11170,7 +11269,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11218,7 +11317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
 --- !u!1 &9211883044490634542
 GameObject:
   m_ObjectHideFlags: 0
@@ -11237,7 +11336,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2125766798245226497
 Transform:
@@ -11248,7 +11347,7 @@ Transform:
   m_GameObject: {fileID: 9211883044490634542}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalScale: {x: 0.095, y: 1, z: 0.095}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3335051377576386379}
@@ -11282,7 +11381,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f616f3fc72c26264ca438b29c9f7d2ff, type: 2}
+  - {fileID: 2100000, guid: 4b9dca72d1c58e74889a8f6624d7dd74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11330,4 +11429,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e40af97c100e71b499ee1374328a88b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPainter: {fileID: 0}
+  LastPaintedPlayer: {fileID: 0}
