@@ -2441,8 +2441,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12685fe55f6f3d54a961fd60454d2285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _borderThickness: 0
   _barPrefab: {fileID: 4189410038063065661, guid: 398e6f0b6d25e3143a9237a5bf70db97,
+    type: 3}
+  _textPrefab: {fileID: 8754364946978332041, guid: 031436b2c74fe23438cbad2cec529774,
     type: 3}
   _bars: []
 --- !u!114 &712103214
@@ -3909,11 +3910,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Targets: []
-  bufferOut: 15
-  bufferIn: 40
+  bufferOut: 120
+  bufferIn: 60
   zoomSpeed: 10
   minY: 10
-  maxZ: -9
+  zOffset: -5
+  zDist: 0
 --- !u!1 &1979271592
 GameObject:
   m_ObjectHideFlags: 0
@@ -3990,7 +3992,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0

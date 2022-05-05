@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class ColorStatusBar : MonoBehaviour
 {
-    [SerializeField] private float _borderThickness;
     [SerializeField] private GameObject _barPrefab;
+    [SerializeField] private GameObject _textPrefab;
     [SerializeField] private List<RectTransform> _bars;
 
     private RectTransform _rectTransform;
@@ -39,6 +39,7 @@ public class ColorStatusBar : MonoBehaviour
             float width = (float)coloredFields / totalFields * barWidth;
             bar.sizeDelta = new(width, barHeight);
             bar.localPosition = new Vector3(offset, barHeight / 2f, 0);
+
             offset += width;
         }
     }
@@ -57,6 +58,12 @@ public class ColorStatusBar : MonoBehaviour
         bar.anchorMax = new Vector2(0, 0.5f);
         bar.anchorMin = new Vector2(0, 0.5f);
         bar.sizeDelta = Vector2.zero;
+
+        var playerName = Instantiate(_textPrefab, bar).GetComponent<RectTransform>();
+        playerName.sizeDelta = Vector2.zero;
+        playerName.GetComponent<TMPro.TextMeshProUGUI>().text = $"Player {_bars.Count + 1}";
+        playerName.GetComponent<TMPro.TextMeshProUGUI>().margin = new Vector4(2, 2, 2, 2);
+
         return bar;
     }
 }

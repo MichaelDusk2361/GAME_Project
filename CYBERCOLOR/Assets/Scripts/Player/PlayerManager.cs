@@ -6,21 +6,17 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(PlayerInputManager))]
 public class PlayerManager : MonoBehaviour
 {
+    public static PlayerManager Singleton { get; private set; }
+
     [SerializeField] private Material[] _playerMaterials;
     [SerializeField] private Material[] _playerPaintMaterials;
     public Dictionary<int, Vector3> SpawnPoints;
 
-    private PlayerInputManager _playerInputManager;
     private int _playerIndex;
 
     void Awake()
     {
         SpawnPoints = new Dictionary<int, Vector3>();
-    }
-
-    void Start()
-    {
-        _playerInputManager = GetComponent<PlayerInputManager>();
         _playerIndex = 0;
     }
 
