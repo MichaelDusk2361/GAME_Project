@@ -17,6 +17,10 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody _rigidbody;
 
+    public GameObject projectile;
+    private GameObject _currentlyHeldProjectile;
+    private ProjectileController _projectileController = null;
+
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
@@ -26,7 +30,40 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         Debug.DrawLine(transform.position, transform.position + transform.forward * 3);
+
+        //spawning projectiles
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            var playerPos = transform.position;
+            var playerDirection = transform.forward;
+            var playerRotation = transform.rotation;
+            float spawnDistance = 1.6f;
+            var spawnPos = playerPos + new Vector3(0f, 0.5f, 0f) + playerDirection * spawnDistance;
+            _currentlyHeldProjectile = Instantiate(projectile, spawnPos, playerRotation);
+            _projectileController = _currentlyHeldProjectile.GetComponent<ProjectileController>();
+        }
+        //changing size of projectile and move with player until released
+        if (_projectileController != null)
+        {
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
+                _projectileController.IsReleased = true;
+                _projectileController = null;
+            }
+            else if (_currentlyHeldProjectile.transform.localScale.y < 2)
+            {
+                _currentlyHeldProjectile.transform.localScale += new Vector3(0.01f, 0.01f, 0.01f);
+            }
+            var playerPos = transform.position;
+            var playerDirection = transform.forward;
+            var playerRotation = transform.rotation;
+            float projectileFromPlayerDistance = 1.6f;
+            var currentProjectilePos = playerPos + new Vector3(0f, 0.5f, 0f) + playerDirection * projectileFromPlayerDistance;
+            _currentlyHeldProjectile.transform.position = currentProjectilePos;
+            _currentlyHeldProjectile.transform.rotation = playerRotation;
+        }
     }
+
 
     void FixedUpdate()
     {
