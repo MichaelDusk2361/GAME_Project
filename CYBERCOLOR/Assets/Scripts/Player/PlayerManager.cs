@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Cinemachine;
 
 [RequireComponent(typeof(PlayerInputManager))]
 public class PlayerManager : MonoBehaviour
@@ -10,6 +11,7 @@ public class PlayerManager : MonoBehaviour
 
     [SerializeField] private Material[] _playerMaterials;
     [SerializeField] private Material[] _playerPaintMaterials;
+    [SerializeField] private CinemachineTargetGroup _cinemachineTargetGroup;
 
     public Dictionary<int, Vector3> SpawnPoints { get; set; }
 
@@ -17,6 +19,7 @@ public class PlayerManager : MonoBehaviour
 
     void Awake()
     {
+        
         SpawnPoints = new Dictionary<int, Vector3>();
         _playerIndex = 0;
     }
@@ -29,6 +32,6 @@ public class PlayerManager : MonoBehaviour
         player.GetComponent<PlayerPainter>().PaintMaterial = _playerPaintMaterials[index];
 
         player.transform.position = SpawnPoints[index];
-        Camera.main.GetComponent<CameraControl>().Targets.Add(player.transform);
+        _cinemachineTargetGroup.AddMember(player.transform, 1, 6.5f);
     }
 }

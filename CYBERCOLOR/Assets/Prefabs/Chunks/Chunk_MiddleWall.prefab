@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6320825883293749460}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: ProjectileObstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -383,6 +383,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_54
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &3208494085333458706 stripped
@@ -457,6 +462,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_58
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -533,6 +543,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_76
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &3167279900047543597 stripped
@@ -607,6 +622,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_56
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -683,6 +703,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_31
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &2850689102636839988 stripped
@@ -757,6 +782,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -833,6 +863,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_09
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &2685202589534683476 stripped
@@ -907,6 +942,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_57
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -983,6 +1023,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_67
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &4473504628320087970 stripped
@@ -1057,6 +1102,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -1133,6 +1183,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_10
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &4075275723770115263 stripped
@@ -1207,6 +1262,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -1283,6 +1343,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_75
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &4005226169990238615 stripped
@@ -1357,6 +1422,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -1433,6 +1503,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_29
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &3832514613022164451 stripped
@@ -1507,6 +1582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_51
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -1583,6 +1663,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_63
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &3487315243983080486 stripped
@@ -1657,6 +1742,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -1733,6 +1823,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_74
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &3581703807680878316 stripped
@@ -1807,6 +1902,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -1883,6 +1983,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_48
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &1134710330441814792 stripped
@@ -1957,6 +2062,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_61
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -2033,6 +2143,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_38
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &443642066794951205 stripped
@@ -2107,6 +2222,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -2183,6 +2303,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_85
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &261363453132189224 stripped
@@ -2257,6 +2382,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -2333,6 +2463,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_14
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &2197978486489698271 stripped
@@ -2407,6 +2542,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_28
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -2483,6 +2623,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_27
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &2008456184798934949 stripped
@@ -2557,6 +2702,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_69
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -2633,6 +2783,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_39
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &1675335868638413498 stripped
@@ -2707,6 +2862,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_87
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -2783,6 +2943,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_26
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &1484732785087298347 stripped
@@ -2857,6 +3022,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -2933,6 +3103,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_32
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &1524345233400628268 stripped
@@ -3007,6 +3182,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_34
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -3083,6 +3263,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_33
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &1362402726130069810 stripped
@@ -3157,6 +3342,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -3233,6 +3423,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_80
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &1220272701462170753 stripped
@@ -3307,6 +3502,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_36
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -3383,6 +3583,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_60
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &7812130708207952333 stripped
@@ -3457,6 +3662,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -3533,6 +3743,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_49
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &7871671510627460067 stripped
@@ -3607,6 +3822,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_35
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -3683,6 +3903,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_40
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &7610503731818174270 stripped
@@ -3757,6 +3982,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_44
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -3833,6 +4063,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_23
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &7416366201783299821 stripped
@@ -3907,6 +4142,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_72
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -3983,6 +4223,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_19
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &7267281007307068848 stripped
@@ -4057,6 +4302,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -4133,6 +4383,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_59
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &7140643467944402204 stripped
@@ -4207,6 +4462,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -4283,6 +4543,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_46
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &9108277574929054884 stripped
@@ -4357,6 +4622,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_68
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -4433,6 +4703,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_30
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &8970391740725451128 stripped
@@ -4507,6 +4782,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_73
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -4583,6 +4863,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_43
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &9061451723755380173 stripped
@@ -4657,6 +4942,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_47
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -4733,6 +5023,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_52
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &8392735972935910545 stripped
@@ -4807,6 +5102,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -4883,6 +5183,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_08
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &8081882368674473704 stripped
@@ -4957,6 +5262,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -5033,6 +5343,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_21
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &8163319228517568291 stripped
@@ -5107,6 +5422,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -5183,6 +5503,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_83
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &5597950797868841153 stripped
@@ -5257,6 +5582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_86
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -5333,6 +5663,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_53
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &5368808773979045814 stripped
@@ -5407,6 +5742,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -5483,6 +5823,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_79
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &5454515136619762329 stripped
@@ -5557,6 +5902,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_82
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -5633,6 +5983,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_84
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &5283619449206128739 stripped
@@ -5707,6 +6062,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_37
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -5783,6 +6143,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_81
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &5017588331181567159 stripped
@@ -5857,6 +6222,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_78
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -5933,6 +6303,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_04
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &4659236504543967651 stripped
@@ -6007,6 +6382,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_70
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -6083,6 +6463,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_77
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &4713031255693356583 stripped
@@ -6157,6 +6542,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -6233,6 +6623,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_03
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &6696152001104507073 stripped
@@ -6307,6 +6702,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_71
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -6383,6 +6783,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_66
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &6343100968092247815 stripped
@@ -6457,6 +6862,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -6533,6 +6943,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_55
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &6299693322652941863 stripped
@@ -6607,6 +7022,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -6683,6 +7103,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_65
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &6042545659557122210 stripped
@@ -6757,6 +7182,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_62
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
@@ -6833,6 +7263,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chunk_Floor_Tile_64
       objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}
 --- !u!4 &5851797853839493981 stripped
@@ -6907,6 +7342,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chunk_Floor_Tile_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3335051377576386383, guid: 3228f416c8cc221458eaf3af1093560e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3228f416c8cc221458eaf3af1093560e, type: 3}

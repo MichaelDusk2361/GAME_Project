@@ -6,20 +6,28 @@ public enum ProjectileState { Charging, Released }
 
 public class ProjectileController : MonoBehaviour
 {
-    [SerializeField]
-    private float _projectileSpeed = 14;
-    [SerializeField]
-    private float _colorRadius = 4;
+    [SerializeField] private float _projectileSpeed = 14;
+    [SerializeField] private float _colorRadius = 4;
+    private float _sizePercentage = 0.1f;
+    [SerializeField] private float _timeUntilMaxCharge = 1;
+    [SerializeField] private float _minScale = 0.15f;
+    [SerializeField] private float _maxScale = 2f;
     public ProjectileState state = ProjectileState.Charging;
     // Start is called before the first frame update
     public PlayerPainter Player { get; set; }
-
+    float _chargeTime = 0;
     // Update is called once per frame
     void Update()
     {
         switch (state)
         {
             case ProjectileState.Charging:
+                float t = _chargeTime / _timeUntilMaxCharge;
+                t = Mathf.Clamp(t, 0, 1);
+                t = 1 - Mathf.Pow(1 - t, 3);
+                _sizePercentage = Mathf.Lerp(_minScale, _maxScale, t);
+                _chargeTime += Time.deltaTime;
+                transform.localScale = new Vector3(_sizePercentage, _sizePercentage, _sizePercentage);
                 break;
             case ProjectileState.Released:
                 transform.Translate(_projectileSpeed * Time.deltaTime * Vector3.forward);
@@ -31,6 +39,7 @@ public class ProjectileController : MonoBehaviour
 
     public void Init(PlayerPainter player)
     {
+        transform.localScale = new Vector3(_minScale, _minScale, _minScale);
         transform.localPosition += Vector3.forward * 1.5f;
         Player = player;
     }
@@ -50,10 +59,10 @@ public class ProjectileController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == this || other.gameObject == Player.gameObject || state == ProjectileState.Charging)
+        if (other.gameObject == Player.gameObject || state == ProjectileState.Charging || !other.gameObject.CompareTag("ProjectileObstacle"))
             return;
 
-        Collider[] hitColliders = Physics.OverlapSphere(transform.position, _colorRadius);
+        Collider[] hitColliders = Physics.OverlapSphere(transform.position, _colorRadius * _sizePercentage);
 
         foreach (var collider in hitColliders)
         {
@@ -66,6 +75,6 @@ public class ProjectileController : MonoBehaviour
     }
     private void OnDrawGizmos()
     {
-        Gizmos.DrawWireSphere(transform.position, _colorRadius);
+        Gizmos.DrawWireSphere(transform.position, _colorRadius * _sizePercentage);
     }
 }
