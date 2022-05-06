@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 1965555517566348265}
   m_Layer: 6
   m_Name: Player
-  m_TagString: ProjectileObstacle
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 60
-  MaxSpeed: 3
+  MaxSpeed: 5
   Stunned: 0
   _movementInput: {x: 0, y: 0}
   _moveVector: {x: 0, y: 0, z: 0}
@@ -197,6 +197,38 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: c89bdecd-8368-4590-a14e-6443d48c6bd9
     m_ActionName: Gameplay/Rotate[/XInputControllerWindows/rightStick,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2192883463104819319}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: OnProjectileDown
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 9fb45e85-1445-45cc-a55c-862d7bce29ab
+    m_ActionName: Gameplay/ProjectileUp[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2192883463104819319}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: OnProjectileUp
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 064716b1-9353-4acc-a521-f95ba0d119c1
+    m_ActionName: Gameplay/ProjectileDown[/Keyboard/space]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Gameplay
