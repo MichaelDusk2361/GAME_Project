@@ -32,21 +32,6 @@ public class PlayerMovement : MonoBehaviour
     {
         Debug.DrawLine(transform.position, transform.position + transform.forward * 3);
 
-        //spawning projectiles
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            _currentlyHeldProjectile = Instantiate(_projectile, transform).GetComponent<ProjectileController>();
-            _currentlyHeldProjectile.Init(_playerPainter);
-        }
-        //changing size of projectile and move with player until released
-        if (_currentlyHeldProjectile != null)
-        {
-            if (Input.GetKeyUp(KeyCode.Space))
-            {
-                _currentlyHeldProjectile.Release();
-                _currentlyHeldProjectile = null;
-            }
-        }
     }
 
 
@@ -55,8 +40,9 @@ public class PlayerMovement : MonoBehaviour
         if (Stunned)
             return;
 
-        _moveVector = new Vector3(_movementInput.x, 0, _movementInput.y) * Speed * Time.fixedDeltaTime;
-
+        _moveVector = Vector3.ClampMagnitude(new Vector3(_movementInput.x, 0, _movementInput.y), 1) * Speed * Time.fixedDeltaTime;
+        if (_currentlyHeldProjectile != null)
+            _moveVector *= 0.1f;
         _rigidbody.AddForce(_moveVector, ForceMode.VelocityChange);
 
         _rigidbody.velocity = new Vector3(
@@ -65,14 +51,37 @@ public class PlayerMovement : MonoBehaviour
             Mathf.Clamp(_rigidbody.velocity.z, -MaxSpeed, MaxSpeed));
 
         // Prevents reset of rotation to vector 0, 0 (0 degrees angle)
-        if (_rotateInput.x != 0f && _rotateInput.y != 0f)
+        if (_rotateInput.x != 0f || _rotateInput.y != 0f)
         {
             float angle = Mathf.Atan2(_rotateInput.x, _rotateInput.y) * Mathf.Rad2Deg;
             _rigidbody.rotation = Quaternion.Euler(0f, angle, 0f);
         }
     }
 
+    public void Knockback(Vector3 forceDir, float scale)
+    {
+        _rigidbody.AddForce((new Vector3(forceDir.x, 0.1f, forceDir.z)).normalized*30f* scale, ForceMode.Impulse);
+    }
+
     public void OnMove(InputAction.CallbackContext context) => _movementInput = context.ReadValue<Vector2>();
 
     public void OnRotate(InputAction.CallbackContext context) => _rotateInput = context.ReadValue<Vector2>();
+    public void OnProjectileUp(InputAction.CallbackContext context)
+    {
+        if (!context.performed) return;
+        if (_currentlyHeldProjectile != null)
+        {
+
+            _currentlyHeldProjectile.Release();
+            _currentlyHeldProjectile = null;
+        }
+    }
+
+    public void OnProjectileDown(InputAction.CallbackContext context)
+    {
+        if (!context.performed) return;
+
+        _currentlyHeldProjectile = Instantiate(_projectile, transform).GetComponent<ProjectileController>();
+        _currentlyHeldProjectile.Init(_playerPainter);
+    }
 }

@@ -46,6 +46,7 @@ public class ProjectileController : MonoBehaviour
     IEnumerator Start()
     {
         GetComponent<Rigidbody>().isKinematic = true;
+        state = ProjectileState.Charging;
         yield return new WaitForSeconds(3f);
         Destroy(gameObject);
     }
@@ -59,9 +60,9 @@ public class ProjectileController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == Player.gameObject || state == ProjectileState.Charging || !other.gameObject.CompareTag("ProjectileObstacle"))
+        if (Player == null || other.gameObject == Player.gameObject || state == ProjectileState.Charging || !(other.gameObject.CompareTag("ProjectileObstacle") || other.gameObject.CompareTag("Player")))
             return;
-
+        
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, _colorRadius * _sizePercentage);
 
         foreach (var collider in hitColliders)
@@ -70,7 +71,14 @@ public class ProjectileController : MonoBehaviour
             {
                 paintableFloor.PaintFloor(Player);
             }
+
+            if (collider.gameObject.GetComponent<PlayerMovement>() is PlayerMovement otherPlayer)
+            {
+                if(otherPlayer.gameObject != Player.gameObject)
+                    otherPlayer.Knockback(otherPlayer.transform.position - transform.position, _sizePercentage);
+            }
         }
+        
         Destroy(gameObject);
     }
     private void OnDrawGizmos()
