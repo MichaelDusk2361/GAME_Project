@@ -76,6 +76,6 @@ public class GameLoopManager : MonoBehaviour
 
     public void LoadNextRandomLevel()
     {
-        SceneManager.LoadScene(Random.Range(0, SceneManager.sceneCount));
+        SceneManager.LoadScene(Random.Range(0, SceneManager.sceneCountInBuildSettings));
     }
 }
