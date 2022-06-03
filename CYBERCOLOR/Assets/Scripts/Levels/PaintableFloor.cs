@@ -13,14 +13,6 @@ public class PaintableFloor : MonoBehaviour
         _meshRenderer = GetComponent<MeshRenderer>();
     }
 
-    private void OnTriggerEnter(Collider collider)
-    {
-        if(collider.gameObject.GetComponent<PlayerPainter>() is PlayerPainter player)
-        {
-            PaintFloor(player);
-        }
-    }
-
     public void PaintFloor(PlayerPainter player)
     {
         if (LastPaintedPlayer != null)
