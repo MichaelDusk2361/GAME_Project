@@ -13,10 +13,12 @@ public class ProjectileController : MonoBehaviour
     [SerializeField] private float _minScale = 0.15f;
     [SerializeField] private float _maxScale = 2f;
     public ProjectileState state = ProjectileState.Charging;
-    // Start is called before the first frame update
+
     public PlayerPainter Player { get; set; }
     float _chargeTime = 0;
-    // Update is called once per frame
+
+    [SerializeField] private GameObject _onHitVFX;
+
     void Update()
     {
         switch (state)
@@ -42,6 +44,7 @@ public class ProjectileController : MonoBehaviour
         transform.localScale = new Vector3(_minScale, _minScale, _minScale);
         transform.localPosition += Vector3.forward * 1.5f;
         Player = player;
+        GetComponent<MeshRenderer>().material = player.PaintMaterial;
     }
     IEnumerator Start()
     {
@@ -78,7 +81,14 @@ public class ProjectileController : MonoBehaviour
                     otherPlayer.Knockback(otherPlayer.transform.position - transform.position, _sizePercentage);
             }
         }
-        
+
+        // Spawn OnHitVFX
+        var vfx = Instantiate(_onHitVFX, transform.position, _onHitVFX.transform.rotation);
+        var settings = vfx.GetComponent<ParticleSystem>().main;
+        settings.startColor = Player.PaintMaterial.color;
+
+        Destroy(vfx, 2f);
+
         Destroy(gameObject);
     }
     private void OnDrawGizmos()

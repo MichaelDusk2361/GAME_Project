@@ -21,8 +21,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private GameObject _projectile;
     private ProjectileController _currentlyHeldProjectile;
 
-    void Start()
+    [SerializeField] private float _projectileCooldown = 0.5f;
+    [SerializeField] private float _currentProjectileCooldown = 0f;
+
+    void Awake()
     {
+        _currentProjectileCooldown = _projectileCooldown;
+
         _rigidbody = GetComponent<Rigidbody>();
         _playerPainter = GetComponent<PlayerPainter>();
         _rigidbody.maxAngularVelocity = 0;
@@ -30,10 +35,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if(_currentProjectileCooldown > 0)
+            _currentProjectileCooldown -= Time.deltaTime;
+
         Debug.DrawLine(transform.position, transform.position + transform.forward * 3);
-
     }
-
 
     void FixedUpdate()
     {
@@ -71,15 +77,15 @@ public class PlayerMovement : MonoBehaviour
         if (!context.performed) return;
         if (_currentlyHeldProjectile != null)
         {
-
             _currentlyHeldProjectile.Release();
             _currentlyHeldProjectile = null;
+            _currentProjectileCooldown = _projectileCooldown;
         }
     }
 
     public void OnProjectileDown(InputAction.CallbackContext context)
     {
-        if (!context.performed) return;
+        if (!context.performed || _currentProjectileCooldown > 0) return;
 
         _currentlyHeldProjectile = Instantiate(_projectile, transform).GetComponent<ProjectileController>();
         _currentlyHeldProjectile.Init(_playerPainter);
