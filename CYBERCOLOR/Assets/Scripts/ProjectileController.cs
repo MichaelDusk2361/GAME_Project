@@ -18,6 +18,7 @@ public class ProjectileController : MonoBehaviour
     float _chargeTime = 0;
 
     [SerializeField] private GameObject _onHitVFX;
+    [SerializeField] private ParticleSystem _chargingVFX;
 
     void Update()
     {
@@ -45,6 +46,9 @@ public class ProjectileController : MonoBehaviour
         transform.localPosition += Vector3.forward * 1.5f;
         Player = player;
         GetComponent<MeshRenderer>().material = player.PaintMaterial;
+        var settings = _chargingVFX.main;
+        settings.startColor = player.PaintMaterial.color;
+        _chargingVFX.Play();
     }
     IEnumerator Start()
     {
@@ -59,6 +63,8 @@ public class ProjectileController : MonoBehaviour
         state = ProjectileState.Released;
         transform.parent = null;
         GetComponent<Rigidbody>().isKinematic = false;
+        _chargingVFX.Stop();
+        _chargingVFX.gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
