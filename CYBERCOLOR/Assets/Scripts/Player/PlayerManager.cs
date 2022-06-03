@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Cinemachine;
+using System.Linq;
 
 [RequireComponent(typeof(PlayerInputManager))]
 public class PlayerManager : MonoBehaviour
@@ -13,14 +14,22 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] private Material[] _playerPaintMaterials;
     [SerializeField] private CinemachineTargetGroup _cinemachineTargetGroup;
 
-    public Dictionary<int, Vector3> SpawnPoints { get; set; }
+    public List<Vector3> SpawnPoints { get; set; }
 
     private int _playerIndex;
 
     void Awake()
     {
-        
-        SpawnPoints = new Dictionary<int, Vector3>();
+        var floorTiles = FindObjectsOfType<PaintableFloor>().ToList();
+
+        SpawnPoints = new List<Vector3>();
+        for (int i = 0; i < GetComponent<PlayerInputManager>().maxPlayerCount; i++)
+        {
+            var tile = floorTiles[Random.Range(0, floorTiles.Count)];
+            SpawnPoints.Add(tile.transform.position);
+            floorTiles.Remove(tile);
+        }
+
         _playerIndex = 0;
     }
 
