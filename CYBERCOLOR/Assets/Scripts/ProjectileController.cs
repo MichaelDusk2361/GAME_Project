@@ -14,6 +14,7 @@ public class ProjectileController : MonoBehaviour
     [SerializeField] private float _maxScale = 2f;
     public ProjectileState state = ProjectileState.Charging;
 
+    [SerializeField] private float _outOfBoundsXZ = 20;
     public PlayerPainter Player { get; set; }
     float _chargeTime = 0;
 
@@ -22,6 +23,10 @@ public class ProjectileController : MonoBehaviour
 
     void Update()
     {
+        if (Mathf.Abs(transform.position.x) > _outOfBoundsXZ ||
+            Mathf.Abs(transform.position.z) > _outOfBoundsXZ)
+            Explode();
+
         switch (state)
         {
             case ProjectileState.Charging:
@@ -71,7 +76,12 @@ public class ProjectileController : MonoBehaviour
     {
         if (Player == null || other.gameObject == Player.gameObject || state == ProjectileState.Charging || !(other.gameObject.CompareTag("ProjectileObstacle") || other.gameObject.CompareTag("Player")))
             return;
-        
+
+        Explode();
+    }
+
+    public void Explode()
+    {
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, _colorRadius * _sizePercentage);
 
         foreach (var collider in hitColliders)
@@ -83,7 +93,7 @@ public class ProjectileController : MonoBehaviour
 
             if (collider.gameObject.GetComponent<PlayerMovement>() is PlayerMovement otherPlayer)
             {
-                if(otherPlayer.gameObject != Player.gameObject)
+                if (otherPlayer.gameObject != Player.gameObject)
                     otherPlayer.Knockback(otherPlayer.transform.position - transform.position, _sizePercentage);
             }
         }
@@ -97,6 +107,7 @@ public class ProjectileController : MonoBehaviour
 
         Destroy(gameObject);
     }
+
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(transform.position, _colorRadius * _sizePercentage);

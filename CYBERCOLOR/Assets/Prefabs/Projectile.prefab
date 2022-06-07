@@ -119,6 +119,7 @@ MonoBehaviour:
   _minScale: 0.15
   _maxScale: 2
   state: 0
+  _outOfBoundsXZ: 30
   _onHitVFX: {fileID: 734477580760420843, guid: 722b31f11f3e49e49b7bbdba20b53b31,
     type: 3}
   _chargingVFX: {fileID: 4098890634374579000}

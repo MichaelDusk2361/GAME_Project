@@ -5,21 +5,26 @@ using System.Linq;
 
 public class OutOfBounds : MonoBehaviour
 {
+    [SerializeField] private float _outOfBoundsY = -10;
+    
     private List<Vector3> _tiles;
+    private bool _teleporting = false;
 
     private void Start()
     {
+        _teleporting = false;
         _tiles = new();
 
         var floors = FindObjectsOfType<PaintableFloor>();
         floors.ToList().ForEach(f => _tiles.Add(f.transform.position));
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void Update()
     {
-        if (other.transform.GetComponent<PlayerMovement>() is PlayerMovement player)
+        if(transform.position.y < _outOfBoundsY && !_teleporting)
         {
-            StartCoroutine(StunPlayer(1.5f, player));
+            _teleporting = true;
+            StartCoroutine(StunPlayer(1.5f, GetComponent<PlayerMovement>()));
         }
     }
 
@@ -31,6 +36,7 @@ public class OutOfBounds : MonoBehaviour
         position.y = 1;
         player.GetComponent<Rigidbody>().velocity = Vector3.zero;
         player.transform.position = position;
+        _teleporting = false;
 
         player.Stunned = true;
         yield return new WaitForSeconds(stunDuration);

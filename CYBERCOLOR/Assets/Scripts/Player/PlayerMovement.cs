@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public float Speed = 5f;
     public float MaxSpeed = 5f;
-    public bool Stunned;
+    [SerializeField] private bool _stunned;
 
     [Header("Debugging Variables")]
     [SerializeField] private Vector2 _movementInput;
@@ -16,28 +16,23 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Vector2 _rotateInput;
 
     private Rigidbody _rigidbody;
-    private PlayerPainter _playerPainter;
+    private PlayerProjectileController _projectileController;
 
-    [SerializeField] private GameObject _projectile;
-    private ProjectileController _currentlyHeldProjectile;
-
-    [SerializeField] private float _projectileCooldown = 0.5f;
-    [SerializeField] private float _currentProjectileCooldown = 0f;
+    public bool Stunned
+    {
+        get { return _stunned; }
+        set { _stunned = value; _projectileController.ReleaseProjectile(); }
+    }
 
     void Awake()
     {
-        _currentProjectileCooldown = _projectileCooldown;
-
+        _projectileController = GetComponent<PlayerProjectileController>();
         _rigidbody = GetComponent<Rigidbody>();
-        _playerPainter = GetComponent<PlayerPainter>();
         _rigidbody.maxAngularVelocity = 0;
     }
 
     private void Update()
     {
-        if(_currentProjectileCooldown > 0)
-            _currentProjectileCooldown -= Time.deltaTime;
-
         Debug.DrawLine(transform.position, transform.position + transform.forward * 3);
     }
 
@@ -47,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
             return;
 
         _moveVector = Vector3.ClampMagnitude(new Vector3(_movementInput.x, 0, _movementInput.y), 1) * Speed * Time.fixedDeltaTime;
-        if (_currentlyHeldProjectile != null)
+        if (_projectileController.IsCharging)
             _moveVector *= 0.1f;
         _rigidbody.AddForce(_moveVector, ForceMode.VelocityChange);
 
@@ -72,22 +67,4 @@ public class PlayerMovement : MonoBehaviour
     public void OnMove(InputAction.CallbackContext context) => _movementInput = context.ReadValue<Vector2>();
 
     public void OnRotate(InputAction.CallbackContext context) => _rotateInput = context.ReadValue<Vector2>();
-    public void OnProjectileUp(InputAction.CallbackContext context)
-    {
-        if (!context.performed) return;
-        if (_currentlyHeldProjectile != null)
-        {
-            _currentlyHeldProjectile.Release();
-            _currentlyHeldProjectile = null;
-            _currentProjectileCooldown = _projectileCooldown;
-        }
-    }
-
-    public void OnProjectileDown(InputAction.CallbackContext context)
-    {
-        if (!context.performed || _currentProjectileCooldown > 0) return;
-
-        _currentlyHeldProjectile = Instantiate(_projectile, transform).GetComponent<ProjectileController>();
-        _currentlyHeldProjectile.Init(_playerPainter);
-    }
 }

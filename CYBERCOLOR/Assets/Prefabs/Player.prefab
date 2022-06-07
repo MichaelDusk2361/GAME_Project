@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: 8488329003368722591}
   - component: {fileID: 7767161887433645016}
   - component: {fileID: 1965555517566348265}
+  - component: {fileID: 3146955827876990157}
+  - component: {fileID: -8164184998615231260}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -133,14 +135,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 60
   MaxSpeed: 5
-  Stunned: 0
+  _stunned: 0
   _movementInput: {x: 0, y: 0}
   _moveVector: {x: 0, y: 0, z: 0}
   _rotateInput: {x: 0, y: 0}
-  _projectile: {fileID: 8901979305493734482, guid: 8f57e1494912a1e498b0c73a672ffdf0,
-    type: 3}
-  _projectileCooldown: 0.25
-  _currentProjectileCooldown: 0
 --- !u!114 &8488329003368722591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,8 +199,8 @@ MonoBehaviour:
     m_ActionName: Gameplay/Rotate[/XInputControllerWindows/rightStick,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2192883463104819319}
-        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+      - m_Target: {fileID: -8164184998615231260}
+        m_TargetAssemblyTypeName: PlayerProjectileController, Assembly-CSharp
         m_MethodName: OnProjectileDown
         m_Mode: 0
         m_Arguments:
@@ -217,8 +215,8 @@ MonoBehaviour:
     m_ActionName: Gameplay/ProjectileUp[/Keyboard/space]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2192883463104819319}
-        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+      - m_Target: {fileID: -8164184998615231260}
+        m_TargetAssemblyTypeName: PlayerProjectileController, Assembly-CSharp
         m_MethodName: OnProjectileUp
         m_Mode: 0
         m_Arguments:
@@ -262,3 +260,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storeInTexcoordChannel: 1
   cospatialVertexDistance: 0.01
+--- !u!114 &3146955827876990157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4812165434903498357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f40034a075d9c74eab284c0678c3a2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _outOfBoundsY: -10
+--- !u!114 &-8164184998615231260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4812165434903498357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7167aa592fad3f44ea9b2bff708c6b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _projectile: {fileID: 8901979305493734482, guid: 8f57e1494912a1e498b0c73a672ffdf0,
+    type: 3}
+  _projectileCooldown: 0.05
+  _currentProjectileCooldown: 0
