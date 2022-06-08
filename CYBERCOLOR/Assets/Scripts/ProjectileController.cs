@@ -91,7 +91,7 @@ public class ProjectileController : MonoBehaviour
 
     public void Explode()
     {
-        AudioManager.Instance.PlayOneShot(_hitClip, _volume * _sizePercentage * 0.8f);
+        AudioManager.Instance.PlayOneShot(_hitClip, _volume * _sizePercentage * 0.5f);
 
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, _colorRadius * _sizePercentage);
 

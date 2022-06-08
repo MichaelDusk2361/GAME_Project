@@ -17,6 +17,8 @@ public class GameLoopManager : MonoBehaviour
     public TMPro.TextMeshProUGUI TimerText;
 
     public GameObject ScoreboardPanel;
+    [SerializeField] AudioClip _gameMusic;
+    AudioSource _audioSource;
     public TMPro.TextMeshProUGUI ScoreboardText;
 
     private void Awake()
@@ -25,6 +27,8 @@ public class GameLoopManager : MonoBehaviour
         GameStarted = false;
         GameFinished = false;
         TimerText.text = RoundTime.ToString();
+        _audioSource = GetComponent<AudioSource>();
+        _audioSource.clip = _gameMusic;
     }
 
     private void Update()
@@ -35,11 +39,15 @@ public class GameLoopManager : MonoBehaviour
         }
     }
 
+
+
     public void OnGameStart(PlayerInput obj)
     {
         if (!GameStarted)
         {
             GameStarted = true;
+
+            _audioSource.Play();
 
             CurRoundTime = RoundTime;
 
