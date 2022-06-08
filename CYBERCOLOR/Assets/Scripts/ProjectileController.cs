@@ -20,6 +20,10 @@ public class ProjectileController : MonoBehaviour
 
     [SerializeField] private GameObject _onHitVFX;
     [SerializeField] private ParticleSystem _chargingVFX;
+    private AudioSource _audioSource;
+    [SerializeField] private AudioClip _shotClip;
+    [SerializeField] private AudioClip _hitClip;
+    float _volume;
 
     void Update()
     {
@@ -57,15 +61,20 @@ public class ProjectileController : MonoBehaviour
     }
     IEnumerator Start()
     {
+        _audioSource = GetComponent<AudioSource>();
         GetComponent<Rigidbody>().isKinematic = true;
+        _volume = _audioSource.volume;
         state = ProjectileState.Charging;
         yield return new WaitForSeconds(3f);
-        Destroy(gameObject);
+        if (state != ProjectileState.Released)
+            Destroy(gameObject);
     }
 
     public void Release()
     {
         state = ProjectileState.Released;
+        _audioSource.Stop();
+        AudioManager.Instance.PlayOneShot(_shotClip, _volume * _sizePercentage);
         transform.parent = null;
         GetComponent<Rigidbody>().isKinematic = false;
         _chargingVFX.Stop();
@@ -82,6 +91,8 @@ public class ProjectileController : MonoBehaviour
 
     public void Explode()
     {
+        AudioManager.Instance.PlayOneShot(_hitClip, _volume * _sizePercentage * 0.8f);
+
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, _colorRadius * _sizePercentage);
 
         foreach (var collider in hitColliders)
