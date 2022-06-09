@@ -142,7 +142,7 @@ public class PlayerMovement : MonoBehaviour
         _rigidbody.velocity = Vector3.zero;
         _rigidbody.AddForce(_knockbackForce * scale * new Vector3(forceDir.x, 0, forceDir.z).normalized, ForceMode.Impulse);
         StartCoroutine(StopShakeCamera());
-
+        StartCoroutine(SlowDownTime());
     }
 
     IEnumerator StopShakeCamera()
@@ -151,7 +151,12 @@ public class PlayerMovement : MonoBehaviour
         virtualCameraNoise.m_AmplitudeGain = 0f;
         ShakeElapsedTime = 0f;
     }
-
+    IEnumerator SlowDownTime()
+    {
+        Time.timeScale = 0.1f;
+        yield return new WaitForSecondsRealtime(0.11f);
+        Time.timeScale = 1f;
+    }
     public void OnMove(InputAction.CallbackContext context) => _movementInput = context.ReadValue<Vector2>();
 
     public void OnRotate(InputAction.CallbackContext context) => _rotateInput = context.ReadValue<Vector2>();
