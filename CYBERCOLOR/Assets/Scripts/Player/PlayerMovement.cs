@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody _rigidbody;
     private PlayerProjectileController _projectileController;
     [SerializeField] private float _dashForce = 10;
+    [SerializeField] private float _dashCooldown = 2;
+    private bool _dashOnCooldown = false;
     [SerializeField] private float _knockbackForce = 10;
 
     public bool Stunned
@@ -65,8 +67,17 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnDashDown(InputAction.CallbackContext context)
     {
-        if (!context.performed || _stunned) return;
+        if (!context.performed || _dashOnCooldown || _stunned) return;
+
+        StartCoroutine(DashCoolDown());
         _rigidbody.AddForce(new Vector3(_movementInput.x, 0, _movementInput.y).normalized * _dashForce, ForceMode.Impulse);
+    }
+
+    IEnumerator DashCoolDown()
+    {
+        _dashOnCooldown = true;
+        yield return new WaitForSeconds(_dashCooldown);
+        _dashOnCooldown = false;
     }
 
     public void Knockback(Vector3 forceDir, float scale)
