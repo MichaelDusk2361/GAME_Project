@@ -39,7 +39,7 @@ public class PlayerManager : MonoBehaviour
         int index = _playerIndex++;
         player.GetComponent<MeshRenderer>().material = _playerMaterials[index];
         player.GetComponent<PlayerPainter>().PaintMaterial = _playerPaintMaterials[index];
-
+        player.gameObject.name = "Player " + _playerIndex.ToString();
         player.transform.position = SpawnPoints[index];
         _cinemachineTargetGroup.AddMember(player.transform, 1, 6.5f);
     }

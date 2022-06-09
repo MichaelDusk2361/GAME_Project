@@ -55,13 +55,13 @@ public class ProjectileController : MonoBehaviour
         transform.localPosition += Vector3.forward * 1.5f;
         Player = player;
         GetComponent<MeshRenderer>().material = player.PaintMaterial;
+        _audioSource = GetComponent<AudioSource>();
         var settings = _chargingVFX.main;
         settings.startColor = player.PaintMaterial.color;
         _chargingVFX.Play();
     }
     IEnumerator Start()
     {
-        _audioSource = GetComponent<AudioSource>();
         GetComponent<Rigidbody>().isKinematic = true;
         _volume = _audioSource.volume;
         state = ProjectileState.Charging;

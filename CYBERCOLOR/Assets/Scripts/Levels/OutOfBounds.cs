@@ -31,16 +31,33 @@ public class OutOfBounds : MonoBehaviour
     public IEnumerator StunPlayer(float stunDuration,
         PlayerMovement player)
     {
-        Vector3 position = GetClosestTile(_tiles, player.transform.position);
+        
 
-        position.y = 1;
         player.GetComponent<Rigidbody>().velocity = Vector3.zero;
-        player.transform.position = position;
         _teleporting = false;
-
+        player.BlinkWhileStunned(stunDuration);
         player.Stunned = true;
+
+        StartCoroutine(LerpPlayerToNewPosition(player));
         yield return new WaitForSeconds(stunDuration);
         player.Stunned = false;
+    }
+
+    IEnumerator LerpPlayerToNewPosition(PlayerMovement player)
+    {
+        Vector3 currentPos = transform.position;
+        Vector3 targetPosition = GetClosestTile(_tiles, player.transform.position);
+        targetPosition.y = 1;
+        float elapsedTime = 0;
+        float waitTime = .5f;
+        while (elapsedTime < waitTime)
+        {
+            transform.position = Vector3.Lerp(transform.position, targetPosition, (elapsedTime / waitTime));
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+        transform.position = targetPosition;
+        yield return null;
     }
 
     private Vector3 GetClosestTile(List<Vector3> tiles, Vector3 playerPos)
