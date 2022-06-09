@@ -546,6 +546,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1161958682}
     m_Modifications:
+    - target: {fileID: 2368888228791230743, guid: cd7b2e197c9847745b1132499a653fba,
+        type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3335051377576386379, guid: cd7b2e197c9847745b1132499a653fba,
         type: 3}
       propertyPath: m_RootOrder
@@ -680,6 +685,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BaseScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791925152074754343, guid: 54366f10b70bb584a98403e52a0b401a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.5969849
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54366f10b70bb584a98403e52a0b401a, type: 3}
