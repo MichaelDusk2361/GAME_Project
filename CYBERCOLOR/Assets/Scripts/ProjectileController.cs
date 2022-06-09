@@ -104,7 +104,7 @@ public class ProjectileController : MonoBehaviour
 
             if (collider.gameObject.GetComponent<PlayerMovement>() is PlayerMovement otherPlayer)
             {
-                if (otherPlayer.gameObject != Player.gameObject)
+                if (otherPlayer.gameObject != Player.gameObject && !otherPlayer.Stunned)
                     otherPlayer.Knockback(otherPlayer.transform.position - transform.position, _sizePercentage);
             }
         }
