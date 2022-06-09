@@ -24,7 +24,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "ProjectileUp",
+                    "name": "ProjectileDown",
                     "type": "Button",
                     "id": "9fb45e85-1445-45cc-a55c-862d7bce29ab",
                     "expectedControlType": "Button",
@@ -33,12 +33,21 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "ProjectileDown",
+                    "name": "ProjectileUp",
                     "type": "Button",
                     "id": "064716b1-9353-4acc-a521-f95ba0d119c1",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DashDown",
+                    "type": "Button",
+                    "id": "21d7f927-ff15-405d-845d-ea0d5125dbc6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
                     "initialStateCheck": false
                 }
             ],
@@ -182,7 +191,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "ProjectileUp",
+                    "action": "ProjectileDown",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -193,7 +202,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "ProjectileUp",
+                    "action": "ProjectileDown",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -204,7 +213,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "ProjectileDown",
+                    "action": "ProjectileUp",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -215,7 +224,29 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "ProjectileDown",
+                    "action": "ProjectileUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eb8e4157-a441-42d1-bc56-a165105ab65a",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DashDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c316774b-eba2-46c9-b575-061b4ca002c8",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DashDown",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

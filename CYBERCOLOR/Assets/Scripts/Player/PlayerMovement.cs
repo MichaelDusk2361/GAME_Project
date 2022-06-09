@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody _rigidbody;
     private PlayerProjectileController _projectileController;
+    [SerializeField] private float _dashForce = 10;
+    [SerializeField] private float _knockbackForce = 10;
 
     public bool Stunned
     {
@@ -61,10 +63,16 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public void OnDashDown(InputAction.CallbackContext context)
+    {
+        if (!context.performed || _stunned) return;
+        _rigidbody.AddForce(new Vector3(_movementInput.x, 0, _movementInput.y).normalized * _dashForce, ForceMode.Impulse);
+    }
+
     public void Knockback(Vector3 forceDir, float scale)
     {
         _rigidbody.velocity = Vector3.zero;
-        _rigidbody.AddForce((new Vector3(forceDir.x, 0.1f, forceDir.z)).normalized * 30f * scale, ForceMode.Impulse);
+        _rigidbody.AddForce(_knockbackForce * scale * new Vector3(forceDir.x, 0.1f, forceDir.z).normalized, ForceMode.Impulse);
     }
 
     public void OnMove(InputAction.CallbackContext context) => _movementInput = context.ReadValue<Vector2>();
